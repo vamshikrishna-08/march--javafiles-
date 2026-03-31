@@ -1,0 +1,109 @@
+2026-03-28 09:42:43 [INFO] com.example.crud.CrudApplication - Starting CrudApplication using Java 17.0.12 with PID 21264 (C:\Users\ADMIN\OneDrive\Desktop\springboot\crud\build\classes\java\main started by ADMIN in C:\Users\ADMIN\OneDrive\Desktop\springboot\crud)
+2026-03-28 09:42:46 [INFO] com.example.crud.CrudApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-28 09:42:52 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-28 09:42:53 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 524 ms. Found 1 JPA repository interface.
+2026-03-28 09:42:58 [INFO] org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-28 09:42:58 [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-28 09:42:58 [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-28 09:42:58 [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-28 09:42:59 [INFO] org.springframework.boot.web.context.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 12376 ms
+2026-03-28 09:43:01 [INFO] org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-28 09:43:02 [INFO] org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-03-28 09:43:06 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-28 09:43:06 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-28 09:43:08 [INFO] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=HII
+2026-03-28 09:43:08 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-28 09:43:08 [INFO] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:testdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: TESTDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-28 09:43:16 [INFO] org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-28 09:43:17 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-28 09:43:18 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-28 09:43:19 [WARN] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-28 09:43:19 [INFO] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-28 09:43:22 [INFO] org.springframework.boot.h2console.autoconfigure.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-03-28 09:43:22 [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-28 09:43:23 [INFO] org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-28 09:43:23 [INFO] com.example.crud.CrudApplication - Started CrudApplication in 52.238 seconds (process running for 65.335)
+2026-03-28 09:44:51 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-28 09:44:51 [INFO] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-28 09:44:51 [INFO] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2026-03-28 09:44:51 [INFO] com.example.crud.HomeControler - Home endpoint accessed
+2026-03-28 09:44:57 [INFO] com.example.crud.HomeControler - Home endpoint accessed
+2026-03-28 09:45:07 [INFO] com.example.crud.HomeControler - Home endpoint accessed
+2026-03-28 09:45:12 [INFO] com.example.crud.HomeControler - Home endpoint accessed
+2026-03-28 09:45:20 [INFO] com.example.crud.controller.StudentController - API CALL: Get all students
+2026-03-28 09:45:20 [INFO] com.example.crud.service.StudentService - Fetching all students
+2026-03-28 09:45:29 [INFO] com.example.crud.HomeControler - Home endpoint accessed
+2026-03-28 11:53:17 [INFO] com.example.crud.CrudApplication - Starting CrudApplication using Java 17.0.12 with PID 7280 (C:\Users\ADMIN\OneDrive\Desktop\springboot\crud\build\classes\java\main started by ADMIN in C:\Users\ADMIN\OneDrive\Desktop\springboot\crud)
+2026-03-28 11:53:17 [INFO] com.example.crud.CrudApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-28 11:53:19 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-28 11:53:19 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 105 ms. Found 1 JPA repository interface.
+2026-03-28 11:53:21 [INFO] org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-28 11:53:21 [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-28 11:53:21 [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-28 11:53:21 [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-28 11:53:21 [INFO] org.springframework.boot.web.context.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 4583 ms
+2026-03-28 11:53:22 [INFO] org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-28 11:53:22 [INFO] org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-03-28 11:53:24 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-28 11:53:24 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-28 11:53:25 [INFO] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=HII
+2026-03-28 11:53:25 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-28 11:53:26 [INFO] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:testdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: TESTDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-28 11:53:29 [INFO] org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-28 11:53:29 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-28 11:53:30 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-28 11:53:30 [WARN] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-28 11:53:31 [INFO] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-28 11:53:32 [INFO] org.springframework.boot.h2console.autoconfigure.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-03-28 11:53:32 [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-28 11:53:32 [INFO] org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-28 11:53:32 [INFO] com.example.crud.CrudApplication - Started CrudApplication in 17.862 seconds (process running for 19.367)
+2026-03-28 11:55:52 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-28 11:55:52 [INFO] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-28 11:55:52 [INFO] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 32 ms
+2026-03-28 11:55:54 [INFO] com.example.crud.HomeControler - Home endpoint accessed
+2026-03-28 11:55:54 [ERROR] com.example.crud.exception.GlobalExceptionHandler - unexcepted error: No static resource favicon.ico for request '/favicon.ico'.
+2026-03-28 11:55:56 [INFO] com.example.crud.HomeControler - Home endpoint accessed
+2026-03-28 11:55:56 [ERROR] com.example.crud.exception.GlobalExceptionHandler - unexcepted error: No static resource favicon.ico for request '/favicon.ico'.
+2026-03-28 11:56:07 [ERROR] com.example.crud.exception.GlobalExceptionHandler - unexcepted error: No static resource favicon.ico for request '/favicon.ico'.
+2026-03-28 11:56:15 [ERROR] com.example.crud.exception.GlobalExceptionHandler - unexcepted error: No static resource favicon.ico for request '/favicon.ico'.
+2026-03-28 12:05:18 [ERROR] com.example.crud.exception.GlobalExceptionHandler - unexcepted error: No static resource favicon.ico for request '/favicon.ico'.
+2026-03-28 12:12:33 [ERROR] com.example.crud.exception.GlobalExceptionHandler - unexcepted error: No static resource favicon.ico for request '/favicon.ico'.
+2026-03-28 12:14:26 [INFO] com.example.crud.HomeControler - Home endpoint accessed
+2026-03-28 12:14:26 [ERROR] com.example.crud.exception.GlobalExceptionHandler - unexcepted error: No static resource favicon.ico for request '/favicon.ico'.
+2026-03-28 12:14:37 [INFO] com.example.crud.controller.StudentController - API CALL: Get all students
+2026-03-28 12:14:37 [INFO] com.example.crud.service.StudentService - Fetching all students
+2026-03-28 12:14:37 [ERROR] com.example.crud.exception.GlobalExceptionHandler - unexcepted error: No static resource favicon.ico for request '/favicon.ico'.
+2026-03-28 12:14:50 [INFO] com.example.crud.controller.StudentController - API CALL: Get all students
+2026-03-28 12:14:50 [INFO] com.example.crud.service.StudentService - Fetching all students
+2026-03-28 12:14:50 [ERROR] com.example.crud.exception.GlobalExceptionHandler - unexcepted error: No static resource favicon.ico for request '/favicon.ico'.
+2026-03-28 12:14:57 [INFO] com.example.crud.controller.StudentController - API CALL: Get student with ID 1
+2026-03-28 12:14:57 [INFO] com.example.crud.service.StudentService - Fetching student with ID: 1
+2026-03-28 12:14:57 [ERROR] com.example.crud.exception.GlobalExceptionHandler - unexcepted error: No static resource favicon.ico for request '/favicon.ico'.
+2026-03-28 12:15:02 [INFO] com.example.crud.controller.StudentController - API CALL: Get student with ID 4
+2026-03-28 12:15:02 [INFO] com.example.crud.service.StudentService - Fetching student with ID: 4
+2026-03-28 12:15:02 [ERROR] com.example.crud.service.StudentService - Student not found with ID: 4
+2026-03-28 12:15:02 [ERROR] com.example.crud.exception.GlobalExceptionHandler - Exception occurred : Student not found with id: 4
+2026-03-28 12:15:02 [ERROR] com.example.crud.exception.GlobalExceptionHandler - unexcepted error: No static resource favicon.ico for request '/favicon.ico'.
